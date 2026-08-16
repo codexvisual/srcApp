@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+
+
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <include layout="@layout/header_afterlogin" android:id="@+id/indlay"/>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical"
+    android:weightSum="2">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:id="@+id/tb1"
+            android:gravity="center"
+            android:layout_height="fill_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Yahoo"
+                android:textSize="30dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:layout_width="2dp"
+            android:layout_height="fill_parent"
+            android:background="#000"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/tb2"
+            android:layout_height="fill_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Google"
+                android:textSize="30dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+<View
+    android:layout_width="fill_parent"
+    android:layout_height="2dp"
+    android:background="#000"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:gravity="center"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:id="@+id/tb3"
+            android:gravity="center"
+            android:layout_height="fill_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Bing"
+                android:textSize="30dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:layout_width="2dp"
+            android:layout_height="fill_parent"
+            android:background="#000"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/tb4"
+            android:layout_height="fill_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Qwant"
+                android:textSize="30dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
